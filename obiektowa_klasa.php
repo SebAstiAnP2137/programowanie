@@ -5,7 +5,7 @@ class Fruit{
     public $color;
     //methods
     function set_name($name){
-        $this->$name=$name;
+        $this->name=$name;
     }
     function get_name(){
         return $this->name;
@@ -21,5 +21,5 @@ echo $apple->get_name();
 echo "<br>";
 echo $banana->get_name();
 echo "<br>";
-$orange->get_name();
+echo $orange->get_name();
 ?>
